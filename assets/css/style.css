@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-image: url(../img/pexels-simon-rizzi-1809644.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    gap: 2rem;
+}
+
+
+.boton-bienvenida{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.boton-color{
+    color: white;
+    font-weight: 500;
+}
+
+/* Acerca de mi */
+
+.contenedor-sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    height: 30rem;
+    gap: 5rem;
+
+}
+
+
+.contenedor-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/C71E79D8-EF02-4233-AC3E-F5D9AD45F6DF_1_105_c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 5%;
+}
+
+.sobre-mi{
+    max-width: 45rem;
+}
+
+/* Portafolio */
+
+.titulo-sobremi{
+    font-weight: 500;
+}
+
+.image-top{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
