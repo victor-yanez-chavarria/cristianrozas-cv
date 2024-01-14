@@ -1,7 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: #081221;
 }
+
+.text-color{
+    color: black;
+}
+
 .bienvenida{
     display: flex;
     flex-direction: column;
@@ -30,6 +35,12 @@ body{
 }
 
 /* Acerca de mi */
+
+.contenedor{
+    background-color: #CFCFCD;
+    margin: 5rem;
+    border-radius: 1rem;
+}
 
 .contenedor-sobremi{
     display: flex;
@@ -60,10 +71,28 @@ body{
     max-width: 45rem;
 }
 
+/* Más info */
+.contenedor-info{
+    color: #CFCFCD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+.titulo-info{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
 /* Portafolio */
 
-.titulo-sobremi{
+.titulo-portafolio{
     font-weight: 500;
+    color: white;
+    text-transform: uppercase;
 }
 
 .image-top{
@@ -71,4 +100,18 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Footer */
+
+footer{
+    background-color: #CFCFCD;
+    margin-top: 5rem;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
